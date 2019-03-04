@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="appURL" value="https://txm.uniteller.com:8443/"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.fbautomation.utility.Logintestcrm">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="setup"/>
+          <include name="loginapp"/>
+        </methods>
+      </class> <!-- com.fbautomation.utility.Logintestcrm -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
